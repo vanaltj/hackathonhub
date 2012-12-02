@@ -6,7 +6,7 @@ import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
 /**
  * The client side stub for the RPC service.
  */
-@RemoteServiceRelativePath("greet")
+@RemoteServiceRelativePath("register")
 public interface ProjectRegistrationService extends RemoteService {
 	String registerProject(String name, String url) throws IllegalArgumentException;
 }
